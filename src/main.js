@@ -17,6 +17,7 @@ export function pairSum(array, target) {
     // We store this result in an object (that behaves like a hash table, so, we have an access in O(1))
     previousResults[pair] = element;
 
+    // NOTE: let's suppose that the order of the tuples does not matter
     if (typeof previousResults[element] !== "undefined") {
       tuples.push([element, previousResults[element]]);
     }

@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/stevenrojasv21/pair-sum/issues"
   },
-  "homepage": "https://github.com/stevenrojasv21/pair-sum#readme"
+  "homepage": "https://github.com/stevenrojasv21/pair-sum#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "jest": "^29.6.2"
+  },
+  "engines" : { 
+    "node" : ">=16.0.0"
+  }
 }
