@@ -3,6 +3,7 @@
  * @param {Number[]} array List of not repeated integers
  * @param {Number} target number which we need to match adding two numbers of the previous list
  * @returns {Number[]} An array of 2-elements arrays that sum the target value
+ * @throws {Error} Throws an error if the list does not contain more than 1 element
  */
 export function pairSum(array, target) {
   if (array.length < 2) {
