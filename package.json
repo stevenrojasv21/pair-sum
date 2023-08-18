@@ -1,0 +1,20 @@
+{
+  "name": "pair-sum",
+  "version": "1.0.0",
+  "description": "This has a function that pairs two numbers if their sum is equal to a target number",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenrojasv21/pair-sum.git"
+  },
+  "author": "stevenrojasv21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenrojasv21/pair-sum/issues"
+  },
+  "homepage": "https://github.com/stevenrojasv21/pair-sum#readme"
+}
